@@ -5,12 +5,12 @@ public class TesteFolhaDePagamento {
     public static void main(String[] args) {
         FolhaDePagamento folhaDePagamento = new FolhaDePagamento();
 
-        folhaDePagamento.numeroDeDependentes = 3;
+        folhaDePagamento.numeroDeDependentes = 2;
         folhaDePagamento.descontoINSS = 10;
-        folhaDePagamento.valorPlanoDeSaude = 50;
+        folhaDePagamento.valorPlanoDeSaude = 50.00;
         folhaDePagamento.salarioBruto = 5000;
 
-        folhaDePagamento.calcularSalarioLiquido();
+        System.out.println("Seu salário líquido é " + folhaDePagamento.calcularSalarioLiquido());
     }
 
 
