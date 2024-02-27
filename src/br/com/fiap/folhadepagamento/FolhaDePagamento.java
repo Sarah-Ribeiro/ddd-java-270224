@@ -4,7 +4,7 @@ public class FolhaDePagamento {
 
     public double salarioBruto;
     public int numeroDeDependentes;
-    public int descontoINSS;
+    public double descontoINSS;
     public double valorPlanoDeSaude;
 
     public double calcularSalarioLiquido() {
